@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TresRayas</string>
+    <string name="ai_turn">Ai turn</string>
+    <string name="jugador_turn">Jugador Turn</string>
+    <string name="jugador_win">Jugador ha ganado esta partida!!!</string>
+    <string name="ai_win">Bot ha ganado esta partida!!!</string>
+    <string name="game_draw">Empatado!!!</string>
+    <string name="HardLvl">Dificil</string>
+    <string name="EasyLvl">Facil</string>
+    <string name="Chess1">O</string>
+    <string name="Chess2">X</string>
+
+
+</resources>
