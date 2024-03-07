@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         lostSoundPlayer = MediaPlayer.create(this, R.raw.lost_sound);
         clickSoundPlayer = MediaPlayer.create(this, R.raw.click_sound);
         drawSoundPlayer = MediaPlayer.create(this, R.raw.draw_sound);
-        tv1.setText("Click Button to change your chess");
+        tv1.setText(R.string.ChangeChess);
         tv1.setVisibility(View.VISIBLE);
         resetTablero();
     }
@@ -163,9 +163,11 @@ public class MainActivity extends AppCompatActivity {
                 if (isEasyMode) {
                     //Si el easy modo esta activado. Bot usa logica de Facil(aleatorio).
                     easyAiMove();
+                    tv1.setText(R.string.jugador_turn);
                 } else {
                     //Si no, usa la logica de modo dificl
                     hardAiMove();
+                    tv1.setText(R.string.jugador_turn);
                 }
                 //Revisa si gana el Bot despres de ponerse la pieza
                 if (checkWin(robot, true)) {

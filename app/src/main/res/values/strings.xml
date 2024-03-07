@@ -9,6 +9,7 @@
     <string name="EasyLvl">Facil</string>
     <string name="Chess1">O</string>
     <string name="Chess2">X</string>
+    <string name="ChangeChess">Click Button to change your chess</string>
 
 
 </resources>
